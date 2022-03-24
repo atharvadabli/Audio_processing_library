@@ -5,12 +5,13 @@ We implemented a deep neural network (DNN) inference for classifying across 12 a
 We created your own audio processing library with an API we can call from a cpp program. Given feature vector of a 1 second audio clip, the API returns the top 3 keywords with highest softmax probabilities.
 
 The following readme contains how we made the library.
-# Implemented on Linux os.
---The libraries needed for this implementation:
-   linear algebra library openblas for fast matrix multiplication.
 
-.............................................................
---How to make and compile the library :
+
+## The libraries needed for this implementation:
+-Implemented on Linux os.
+-linear algebra library openblas for fast matrix multiplication.
+
+## How to make and compile the library :
 (This part is already done)
 The code for the library is included in libaudioAPI.h and libaudioAPI.cpp
 
@@ -21,9 +22,8 @@ g++ -I usr/include/openblas -c libaudioAPI.cpp -fopenmp -lpthread -lm -ldl -lope
 g++ -I usr/include/openblas -shared -o libaudioAPI.so libaudioAPI.o
 
 Now we have libaudioAPI.so library.
-......................................................................................
 
-
+## 
 Now run the make file.
 We can now run our code by writing in the command line
 ./yourcode.out input.txt output.txt
