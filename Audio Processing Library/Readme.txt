@@ -4,9 +4,9 @@ We created your own audio processing library with an API we can call from a cpp 
 
 The following readme contains how we made the library.
 
--The libraries needed for this implementation:
-We implemented on Linux os.
-linear algebra library openblas for fast matrix multiplication.
+The libraries needed for this implementation:
+  -We implemented on Linux os.
+  -linear algebra library openblas for fast matrix multiplication.
 
 .............................................................
 How to make and compile the library :
