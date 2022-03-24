@@ -1,5 +1,12 @@
+Implement a deep neural network (DNN) inference for classifying across 12 audio keywords (silence, unknown, yes, no, up, down, left, right, on, off, stop, go). [1x250] input features for each 1 second audio sample. DNN should comprise of FC1 [250x144] -> RELU -> FC2 [144x144] -> RELU -> FC3 [144X144] -> RELU -> FC4 [144x12] -> softmax.
+
+We created your own audio processing library with an API we can call from a cpp program. Given feature vector of a 1 second audio clip, the API returns the top 3 keywords with highest softmax probabilities.
+
 The following readme contains how we made the library.
 
+-The libraries needed for this implementation:
+We implemented on Linux os.
+linear algebra library openblas for fast matrix multiplication.
 
 .............................................................
 How to make and compile the library :
