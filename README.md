@@ -30,3 +30,6 @@ We can now run our code by writing in the command line
 
 The function libaudioAPI has been implemented and calculates the top 3 possible things that the audio would
 be generating.
+Creators:
+Atharv Dabli
+Garvit Dhawan
